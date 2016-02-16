@@ -18,9 +18,9 @@
 }
 
 .article-meta {
-    @extend .clearfix;
-    overflow: hidden;
-    font-family: $quote-face;
+  @extend .cf;
+  overflow: hidden;
+  font-family: $quote-face;
 	font-weight: normal;
 	font-style: normal;
 	@include font-size($h6-size);
