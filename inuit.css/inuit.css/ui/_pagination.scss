@@ -1,0 +1,35 @@
+/*------------------------------------*\
+    $Pagination
+\*------------------------------------*/
+
+.wp-pagenavi {
+	border-top: 1px solid $keylinegrey;
+	border-bottom: 1px solid $keylinegrey;
+	color: $darkgrey;
+	@extend .cf;
+	a, .pages, .current, .extend {
+		float: left;
+		border: 0px solid #fff !important;
+	}
+	a {
+	display: inline-block;
+	margin:0 !important;
+	padding: $half-spacing-unit !important;
+		&:hover {
+			background: $darkgrey;
+			color: #fff;
+			text-decoration: none;
+		}
+	}
+	.current {
+		margin:0 !important;
+		padding: $half-spacing-unit !important;
+		background: $darkgrey;
+		color: #fff;
+		text-decoration: none;
+	}	
+	.pages {
+		margin:0 !important;
+		padding: $half-spacing-unit !important;
+	}	
+}

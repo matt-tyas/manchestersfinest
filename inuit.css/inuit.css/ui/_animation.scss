@@ -1,0 +1,87 @@
+/*------------------------------------*\
+    $Animation
+\*------------------------------------*/
+
+.animated {
+-webkit-animation-fill-mode:both;
+   -moz-animation-fill-mode:both;
+    -ms-animation-fill-mode:both;
+     -o-animation-fill-mode:both;
+        animation-fill-mode:both;
+-webkit-animation-duration:1s;
+   -moz-animation-duration:1s;
+    -ms-animation-duration:1s;
+     -o-animation-duration:1s;
+        animation-duration:1s;
+}
+
+.animated.hinge {
+-webkit-animation-duration:2s;
+   -moz-animation-duration:2s;
+    -ms-animation-duration:2s;
+     -o-animation-duration:2s;
+        animation-duration:2s;
+}
+
+/* Bounce anmiation for slider CTA */
+
+@-webkit-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateX(0);}	40% {-webkit-transform: translateX(-5px);}
+	60% {-webkit-transform: translateX(-5px);}
+}
+
+@-moz-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-moz-transform: translateX(0);}
+	40% {-moz-transform: translateX(-5px);}
+	60% {-moz-transform: translateX(-5px);}
+}
+
+@-o-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-o-transform: translateX(0);}
+	40% {-o-transform: translateX(-5px);}
+	60% {-o-transform: translateX(-5px);}
+}
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateX(0);}
+	40% {transform: translateX(-5px);}
+	60% {transform: translateX(-5px);}
+}
+
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}
+

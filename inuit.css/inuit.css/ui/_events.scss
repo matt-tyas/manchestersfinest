@@ -1,0 +1,135 @@
+/*------------------------------------*\
+    $Events
+\*------------------------------------*/
+
+// Homepage
+
+.events {
+	margin-top: -17px;
+	margin-bottom: $base-spacing-unit;
+	@include media-query(palm) {
+		margin-top: 0;
+	}
+	h5 {
+		margin-bottom: 0;
+	}
+	.event-link {
+		min-height: 80px;
+	}
+}
+
+.event-list {
+	list-style: none;
+	margin: 0em 0 $half-spacing-unit 0 !important;
+	padding: 0;
+}
+
+.event {
+	clear: both;
+	overflow: hidden;
+	margin-bottom: 0;
+    border-bottom: 1px solid $keylinegrey;
+	&:last-of-type {
+		border-bottom: 0;
+	}
+	h6  {
+		margin-bottom: $half-spacing-unit /2;
+	}
+	.time-location {
+		color: $darkgrey;
+		@include font-size($milli-size);
+	}
+	.event-link {
+		padding: $base-spacing-unit/1.5 $half-spacing-unit $base-spacing-unit/1.5 $half-spacing-unit;
+		display: block;
+		min-height: 78px;
+		-webkit-transition:all 150ms ease-in;
+           -moz-transition:all 150ms ease-in;
+	         -o-transition:all 150ms ease-in;
+	            transition:all 150ms ease-in;
+	    &:hover {
+		background-color: $lightgrey;
+		text-decoration: none;
+			.start-date {
+				background-color: #fff;
+			}
+			.end-date {
+				background-color: #fff;
+			}
+		}
+	}	
+}
+
+.event-date {
+	white-space: nowrap;
+	float: right !important;
+	margin-bottom: 0em !important;
+}
+
+.multi-date {
+	margin-left: $half-spacing-unit;
+}
+
+.start-date, 
+.end-date {
+	width: 3.2em;
+	border-radius: 5px;
+	background-color: rgb(230,230,230);
+	text-align: center;
+	overflow: hidden;
+}
+
+.start-date {
+	float: left;
+}
+
+.end-date {
+	margin-left: 3.8em;
+}
+
+.event-weekday {
+	padding: $half-spacing-unit/4 0 0 0;
+	@include font-size($milli-size);
+	text-transform: uppercase;
+	background: $brand-color;
+	color: #fff;
+}
+
+.event-day {
+	padding: $half-spacing-unit/2 0 $half-spacing-unit/4 0;
+	font-size: 1.3em;
+	font-weight: bold;
+	line-height: 1em;
+	margin-bottom: -0.3em !important;
+	color: #000 !important;
+}
+
+.event-month {
+	padding: $half-spacing-unit/2 0 $half-spacing-unit/2 0 !important;
+	text-transform: uppercase;
+	@include font-size($milli-size);
+	line-height: 1em;
+	color: #000 !important;
+}
+
+.event-year {
+	font-size: 0.8em;
+	line-height: 0.8em;
+	letter-spacing: 0.1em;
+	padding-bottom: 0.3em;
+}
+
+.multi-day {
+	margin: 0 0 0 0em !important;
+}
+
+.single-day {
+	margin: 0 0 0 0em !important;
+}
+
+.date-separator {
+	display: block;
+	float: left;
+	padding: $half-spacing-unit /2;
+	margin-top: $base-spacing-unit;
+}

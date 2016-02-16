@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/*
+Theme Name: Manchester's Finest V2
+Theme URI: http://matthewtyas.com
+Author: Matt Tyas
+Author URI: http://matthewtyas.com
+Description: Manchester's Finest themes
+Version: 2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: Matt Tyas
+
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+/*------------------------------------*\
+    STYLE.CSS
+\*------------------------------------*/
+/**
+ * 
+ * sass --watch style.scss:style.min.css --style compressed
+ * 
+ * Here we pull in some variables, include the inuit.css framework, then add our
+ * project-specific components afterwards.
+ */
+ 
+/**
+ * Setup
+ */
+@import "vars";
+@import "inuit.css/inuit";
+  
+/**
+ * Finest Modules A-Z
+ */
+@import "inuit.css/ui/adverts";
+@import "inuit.css/ui/animation";
+@import "inuit.css/ui/article";
+@import "inuit.css/ui/article-previews";
+@import "inuit.css/ui/carousel";
+@import "inuit.css/ui/columnists";
+@import "inuit.css/ui/comments";
+@import "inuit.css/ui/breadcrumbs";
+@import "inuit.css/ui/buttons";
+@import "inuit.css/ui/events";
+@import "inuit.css/ui/finest-mixins";
+@import "inuit.css/ui/footer";
+@import "inuit.css/ui/forms";
+@import "inuit.css/ui/header";
+@import "inuit.css/ui/icons";
+@import "inuit.css/ui/main";
+@import "inuit.css/ui/nav";
+@import "inuit.css/ui/page";
+@import "inuit.css/ui/pagination";
+@import "inuit.css/ui/search-results";
+@import "inuit.css/ui/slider";
+@import "inuit.css/ui/social";

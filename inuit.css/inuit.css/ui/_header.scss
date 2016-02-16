@@ -1,0 +1,111 @@
+/**
+ * $header
+ */
+ 
+.info {
+	padding: $half-spacing-unit $half-spacing-unit $half-spacing-unit $half-spacing-unit;
+	margin-top: $half-spacing-unit;
+	margin-left: $base-spacing-unit;
+	color: #3a87ad;
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+	p {
+		margin-bottom: $half-spacing-unit;
+	}
+}
+
+header {
+	@extend .cf;
+	hgroup{
+		margin-bottom: 0;
+	}	
+}
+
+.site-title {
+	display: block;
+	@include font-size($brand-phone-size);
+	color: #fff;
+	margin-bottom: $half-spacing-unit *1.65;
+	margin-top: $base-spacing-unit /1.1; 
+    font-family: $brand-face;
+    font-style: normal;
+    line-height: 0.95 !important;
+    text-align: left;
+    white-space: nowrap;
+    a {
+	    color: #000;
+	    &:hover {
+			color: #333;
+			text-decoration: none;
+			}
+    }  
+    @include media-query(palm) {  
+    	a {
+	    	position: relative;
+	    	z-index: 9999;
+    	}
+    }
+    span {
+	    font-family: $brand-face-light;
+    }
+    @include media-query(lap-and-up) {  
+    	text-align: left;
+    	font-size: 4.5em;
+    	margin-top: $base-spacing-unit; 
+    	a {
+	    	color: #000;
+	    	&:hover {
+				color: #333;
+				text-decoration: none;
+			}
+		} 
+    }
+    @include media-query(desk) {  
+    	text-align: left;
+    }
+} 
+
+.site-description {
+	width: 105%;
+	font-family: sans-serif;
+	@include font-size($h6-size);
+	margin-bottom: $base-spacing-unit;
+	color: #333;
+	font-weight: 300;
+	text-align: center;
+	// dropped test
+    @extend .visuallyhidden--palm;
+	@include media-query(lap-and-up) {  
+		display: block;
+    	text-align: left;
+    }
+	@include media-query(desk) {  
+    	text-align: left;
+    }
+    @include media-query(palm) {  
+    	//width: 75%;
+    	//margin: 0 auto 0 auto;
+    }
+}
+
+.ad-horz {
+	width: 100%;
+	height: auto;
+    margin: $base-spacing-unit auto 0 auto;
+    @include media-query(lap-and-up) {  
+        width: 468px;
+    }
+    @include media-query(lap) {
+    	width: 468px;
+    }
+    @include media-query(desk) {  
+    	float: right;
+    }
+    @include media-query(palm) { 
+    	width: 468px;
+    	margin-bottom: $half-spacing-unit;
+    }
+    @media only screen and (max-width:550px) { 
+     	width: 100%;
+    }
+}

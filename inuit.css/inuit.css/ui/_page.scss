@@ -1,0 +1,61 @@
+/*------------------------------------*\
+    $Page
+\*------------------------------------*/
+
+.page-title {
+	padding: $base-spacing-unit;
+	text-align: center;
+	font-weight: normal;
+	font-style: normal;
+	color: lighten($darkgrey, 20%);
+	border-top: 1px solid lighten($darkgrey, 30%);
+	border-bottom: 1px solid lighten($darkgrey, 30%);
+}
+
+.sub-title-link {
+	//text-align: center;
+	font-family: $quote-face;
+	font-weight: normal;
+	font-style: normal;
+	@include font-size($h6-size);
+	color: lighten($darkgrey, 20%);
+	margin-bottom: 0;
+	a {
+		display: block;
+		padding: $half-spacing-unit;
+		color: lighten($darkgrey, 20%);
+		text-decoration: none;
+		border-top: 1px solid $keylinegrey;
+		border-bottom: 1px solid $keylinegrey;
+		&:hover {
+			color: $brand-color;
+			border-top: 1px solid $brand-color;
+			border-bottom: 1px solid $brand-color;
+		} 
+	}
+}
+
+.sub-title {
+	//text-align: center;
+	font-family: $quote-face;
+	font-weight: normal;
+	font-style: normal;
+	@include font-size($h6-size);
+	color: lighten($darkgrey, 20%);
+	margin-bottom: 0;
+	padding: $half-spacing-unit;
+	border-top: 1px solid $keylinegrey;
+	border-bottom: 1px solid $keylinegrey;
+}
+
+.brandface-title {
+	 margin-bottom: $base-spacing-unit;
+	 font-family: $brand-face-light;
+	 @include font-size($kilo-size);
+}
+
+.twitter-title {
+	a {
+		color: $brand-color;
+	}
+}

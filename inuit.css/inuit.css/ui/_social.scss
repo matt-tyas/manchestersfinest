@@ -1,0 +1,43 @@
+/*------------------------------------*\
+    $Social
+\*------------------------------------*/
+
+.twitter-stream {
+	p {
+		padding: $half-spacing-unit $half-spacing-unit;
+		@include font-size($milli-size);
+		line-height: 1.5em;
+	}
+	.profile-link {
+		display: none;
+	}
+}
+
+.wpinstagram {
+	@extend .cf;
+	margin-left: 0;
+	margin-right: 0;
+	height: auto;
+	list-style-type: none;
+		@include media-query(palm) { 
+			width: 100% !important;
+			height: auto !important;
+			}
+	img {
+		display: block;
+		margin-top: $base-spacing-unit;
+		@include media-query(palm) { 
+			width: 50%;
+			height: auto;
+			float: left;
+			&:last-of-type(2) img {
+				margin-right: $base-spacing-unit !important;
+			}
+		}
+		@include media-query(mob) { 
+			width: 100%;
+			height: auto;
+			float: none;
+		}
+	}
+}

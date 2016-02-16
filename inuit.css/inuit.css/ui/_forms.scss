@@ -1,0 +1,267 @@
+/*------------------------------------*\
+    $Forms
+\*------------------------------------*/
+.site-content {
+	label {
+		display: block;
+		padding-top: $half-spacing-unit;
+		padding-bottom: $half-spacing-unit;
+		color: $darkgrey;
+	}
+	input[type=text], input[type=email], input[type=password] {
+		width: 100%;
+		padding: $half-spacing-unit;
+		background: $lightgrey;
+		&:hover {
+			background: #fff;
+		}
+		&:focus {
+			border: 1px solid $brand-color;		
+		}
+	}
+	textarea {
+		width: 100%;
+		padding: $half-spacing-unit;
+		background: $lightgrey;
+		&:hover {
+			background: #fff;
+		}
+		&:focus {
+			border: 1px solid $brand-color;
+		}
+	}
+	.wpcf7-captchac {
+		height: auto !important;
+		width: auto !important;
+	}
+	input[type=submit] {
+		padding: $half-spacing-unit;
+		background: $brand-color;
+		border:0;
+		color: #fff;
+		@include vendor(border-radius, 4px);
+		&:hover {
+			background: lighten($brand-color, 10%);
+		} 	
+	}
+	.ajax-loader {
+		height: auto !important;
+		width: auto !important;
+	}
+}
+
+textarea, input {
+	border: 1px solid $keylinegrey;
+    -webkit-transition:all 150ms ease-in;
+       -moz-transition:all 150ms ease-in;
+	     -o-transition:all 150ms ease-in;
+	        transition:all 150ms ease-in;
+}
+
+input[placeholder]:focus::-webkit-input-placeholder {
+	-webkit-transition:opacity 0.5s 0s ease;
+	   -moz-transition:opacity 0.5s 0s ease;
+	    -ms-transition:opacity 0.5s 0s ease;
+	     -o-transition:opacity 0.5s 0s ease;
+	        transition:opacity 0.5s 0s ease;
+	opacity: 0;
+}
+
+input[placeholder]:focus:-moz-placeholder {
+	-webkit-transition:opacity 0.5s 0s ease;
+	   -moz-transition:opacity 0.5s 0s ease;
+	    -ms-transition:opacity 0.5s 0s ease;
+	     -o-transition:opacity 0.5s 0s ease;
+	        transition:opacity 0.5s 0s ease;
+	opacity: 0;
+}
+
+input[placeholder]:focus::-moz-placeholder {
+	-webkit-transition:opacity 0.5s 0s ease;
+	   -moz-transition:opacity 0.5s 0s ease;
+	    -ms-transition:opacity 0.5s 0s ease;
+	     -o-transition:opacity 0.5s 0s ease;
+	        transition:opacity 0.5s 0s ease;
+	opacity: 0;
+}
+
+input[placeholder]:focus::-ms-placeholder {
+	-webkit-transition:opacity 0.5s 0s ease;
+	   -moz-transition:opacity 0.5s 0s ease;
+	    -ms-transition:opacity 0.5s 0s ease;
+	     -o-transition:opacity 0.5s 0s ease;
+	        transition:opacity 0.5s 0s ease;
+	opacity: 0;
+}
+
+textarea:focus, input:focus{
+	border: 0;
+    outline: none;
+}
+.wpcf7 {
+	label {
+		display: block;
+		padding-top: $half-spacing-unit;
+		padding-bottom: $half-spacing-unit;
+		color: $darkgrey;
+		font-weight: bold;
+	}
+	input[type=text] {
+		width: 100%;
+		padding: $half-spacing-unit;
+		background: $lightgrey;
+		&:hover {
+			background: #fff;
+		}
+		&:focus {
+			border: 1px solid $brand-color;		
+		}
+	}
+	textarea {
+		width: 100%;
+		padding: $half-spacing-unit;
+		background: $lightgrey;
+		&:hover {
+			background: #fff;
+		}
+		&:focus {
+			border: 1px solid $brand-color;
+		}
+	}
+	input[type=submit] {
+		padding: $half-spacing-unit;
+		background: $brand-color;
+		border:0;
+		color: #fff;
+		&:hover {
+			background: lighten($brand-color, 10%);
+		} 	
+	}
+}
+
+.connect {
+	margin-bottom: $base-spacing-unit;
+	//border-bottom: 1px solid $keylinegrey;
+	.social {
+		margin-top: $base-spacing-unit;
+		//padding: $half-spacing-unit $half-spacing-unit 0 $half-spacing-unit;
+		.btn {
+			margin-bottom: $half-spacing-unit+3;
+		}
+		.instagram {
+			margin: 0 $base-spacing-unit;
+		}
+	}
+	input[type=email] {
+		width: 70% !important;
+		margin-right: $half-spacing-unit/2;
+		padding: $half-spacing-unit $half-spacing-unit $half-spacing-unit $base-spacing-unit +3 !important;
+	}
+	input[type=submit] {
+		
+	}
+	br {
+		display: none;
+	}
+	p {
+		margin-top: $base-spacing-unit;
+	}
+	img.ajax-loader {
+		position: relative;
+		bottom: 1.9em;
+	}
+	.wpcf7-response-output {
+		margin-left: 0;
+		margin-top: -$base-spacing-unit;
+	}
+	.wpcf7-not-valid-tip {
+		top: -9px;
+		left: 0%;
+		@include font-size($milli-size);
+		background: #ffecec;
+		border: 2px solid #ff0000;
+		color:#a10000;
+		width: 100%;
+		padding: $half-spacing-unit+1 $half-spacing-unit $half-spacing-unit $half-spacing-unit;
+	}
+}
+
+.newscta {
+	#fit-brand {
+		@include media-query(palm) { 
+			font-size: 35px; 
+		}
+	}
+	background: url('images/bg/newsletter-man-1.gif') right 10px no-repeat;
+	padding-bottom: $base-spacing-unit;
+}
+
+.newsletter {
+	br {
+		display: none;
+	}
+	#your-email {
+		width: 100%;
+		margin-bottom: $half-spacing-unit;
+		padding: $half-spacing-unit;
+		background: rgba(255, 255, 255, .7);
+		&:focus {
+			outline: 0;
+			border: 1px solid $brand-color;
+		}
+	}
+	input[type=submit] {
+		padding: $half-spacing-unit+2 $half-spacing-unit $half-spacing-unit+2 $half-spacing-unit;
+		background: $brand-color;
+		@include vendor(border-radius, 4px);
+		border:0;
+		color: #fff;
+		
+	}
+	.wpcf7-not-valid-tip {
+		top: -9px;
+		left: 0%;
+		@include font-size($milli-size);
+		background: #ffecec;
+		border: 2px solid #ff0000;
+		color:#a10000;
+		width: 100%;
+		padding: $half-spacing-unit+1 $half-spacing-unit $half-spacing-unit $half-spacing-unit;
+		}
+	img.ajax-loader {
+		//position: relative;
+		//bottom: 1.9em;
+	}
+	.wpcf7-response-output {
+		position: absolute;
+		width: 165px;
+		margin: 0;
+		padding: $half-spacing-unit;
+		@include font-size($milli-size);
+	}
+}
+
+.wpcf7-validation-errors {
+	border: 2px solid #f7e700;
+	background: #ffffd0;	
+}
+	
+.wpcf7-response-output {
+	margin: 0 0 $half-spacing-unit 0;
+	padding: $half-spacing-unit;
+}
+	
+.wpcf7-mail-sent-ng {
+	border: 2px solid #ff0000;
+	background: #ffecec;
+	color:#a10000;
+}
+
+
+
+
+/* Comments form */
+
+.form-allowed-tags {
+	display: none;
+}

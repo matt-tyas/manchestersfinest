@@ -1,0 +1,52 @@
+/*------------------------------------*\
+    $Comments
+\*------------------------------------*/
+
+.comments-area {
+	h2 {
+		@include font-size($h4-size);
+	}
+	ol {
+		list-style-type: none;
+		margin-left: 0;
+	}
+	li {
+		padding: $base-spacing-unit;
+		background: $lightgrey;
+		&:nth-of-type(even) {
+			background: lighten($lightgrey, 5%);
+		}
+	}
+	.comment {
+		margin-bottom: 0;
+		@extend .media;
+		img {
+			@extend .media__img;
+		}
+		cite {
+			display: block;
+			font-style: normal;
+			@include font-size($h5-size);
+			margin-bottom: $half-spacing-unit/2;
+		}
+		time {
+			display: block;
+			margin-bottom: $half-spacing-unit;
+			@include font-size($milli-size);
+		}
+		section {
+			margin-bottom: 0;
+		}
+		cite, time, section, .reply {
+			margin-left: 12%;
+		}
+	}
+	#respond {
+		#commentform {
+			margin-top: $base-spacing-unit;
+		}
+		h3 {
+			@extend .sub-title;
+		}
+	}
+}

@@ -1,0 +1,387 @@
+/*------------------------------------*\
+    $icons
+\*------------------------------------*/
+
+@font-face{
+	font-family: 'finest-icons';
+	src:url('inuit.css/assets/icons/finest-icons.eot');
+	src:url('inuit.css/assets/icons/finest-icons.eot?#iefix') format('embedded-opentype'),
+		url('inuit.css/assets/icons/finest-icons.woff') format('woff'),
+		url('inuit.css/assets/icons/finest-icons.ttf') format('truetype'),
+		url('inuit.css/assets/icons/finest-icons.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[data-icon]:before {
+	font-family: 'finest-icons';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.icon-star, .icon-heart, .icon-ok, .icon-remove, .icon-cog, .icon-time, .icon-tags, .icon-chevron-down, .icon-angle-left, .icon-angle-right, .icon-angle-up, .icon-angle-down, .icon-paperplane, .icon-clock, .icon-info, .icon-warning, .icon-plus, .icon-minus, .icon-twitter, .icon-search, .icon-music, .icon-ipod, .icon-bag, .icon-drink, .icon-flower, .icon-film, .icon-mug, .icon-coffee, .icon-drink-2, .icon-cake, .icon-chat, .icon-chat-2, .icon-comments, .icon-info-2, .icon-cloud-dl, .icon-film-2, .icon-glass, .icon-map-marker, .icon-quote-right, .icon-food, .icon-coffee-2, .icon-bullhorn, .icon-leaf, .icon-calendar, .icon-comments-2, .icon-comment, .icon-phone, .icon-music-2, .icon-music-3, .icon-megaphone, .icon-newspaper, .icon-location, .icon-pushpin, .icon-tv, .icon-bookmark, .icon-ticket, .icon-microphone, .icon-marker, .icon-brush, .icon-food-2, .icon-calendar-2, .icon-image, .icon-search, .icon-facebook, .toggle__target, #menu-toggle__target, #searchsubmit, .rsABlock, .sidr-class-icon-search, .post-categories, .sidr-class-toggle__target a[rel], .icon-twitter-nav, .icon-instagram, .icon-foursquare, .icon-envelope, .top-link, .Articles, .Events, .Clubs, .Health, .Arts, .Eatery, .Eating, .Restaurants, .Drink, .Drinking, .Bars, .Pubs, .Charity, .Nights, .gigs, .Music, .Bands, .Theatre, .People, .Manchester, .Canal, .China, .Lettings, .Northern, .Southern, .Spinningfields, .Town, .Film, .Cinema, .Exhibitions, .Galleries, .Cafes, .Delis, .Venues, .Mens, .Streetstyle, .Various, .Womens, .featured, #search-toggle  {
+	font-family: 'finest-icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Category icons */
+
+.featured {
+	span {
+		@extend .visuallyhidden;
+	}
+	&:before {
+		content: "\2605";
+		//color: #fff;
+	}
+}
+
+/*.Articles {
+	span {
+		@extend .visuallyhidden;
+	}
+	&:before {
+		content: "\f10e";
+	}
+}*/
+/*.Events {
+	span {
+		@extend .visuallyhidden;
+	}
+	&:before {
+		content: "\f073";
+	}
+}*/
+/*.Clubs, .Nights, .Venues {
+	span {
+		@extend .visuallyhidden;
+	}
+	&:before {
+		content: "\e001";
+	}
+}*/
+/*.gigs, .Music, .Bands {
+	span {
+		@extend .visuallyhidden;
+	}
+	&:before {
+		content: "\e000";
+	}
+}
+.Health, .Mens, .Streetstyle, .Various, .Womens {
+	span {
+		@extend .visuallyhidden;
+	}
+	&:before {
+		content: "\e002";
+	}
+} */
+/*.Arts {
+	span {
+		@extend .visuallyhidden;
+	}
+	&:before {
+		content: "\e01a";
+	}
+}*/
+/*.Eatery, .Eating, .Restaurants, .Takeaway {
+	span {
+		@extend .visuallyhidden;
+	}
+	&:before {
+		content: "\f0f5";
+	}
+}*/
+/*.Cafes, .Delis {
+	span {
+		@extend .visuallyhidden;
+	}
+	&:before {
+		content: "\f0f4";
+	}
+}*/
+/*.Drink, .Drinking, .Bars {
+	span {
+		@extend .visuallyhidden;
+	}
+	&:before {
+		content: "\f000";
+	}
+}*/
+/*.Pubs {
+	span {
+		@extend .visuallyhidden;
+	}
+	&:before {
+		content: "\e006";
+	}
+}
+.Charity {
+	span {
+		@extend .visuallyhidden;
+	}
+	&:before {
+		content: "\f06c";
+	}
+}
+.Theatre {
+	span {
+		@extend .visuallyhidden;
+	}
+	&:before {
+		content: "\e017";
+	}
+}
+.People {
+	span {
+		@extend .visuallyhidden;
+	}
+	&:before {
+		content: "\f086";
+	}
+}*/
+
+.Northern {
+	span {
+		@extend .visuallyhidden;
+	}
+	&:before {
+		content: "\e013";
+	}
+}
+/*.Manchester, .Canal, .China, .Lettings, .Northern, .Southern, .Spinningfields, .Town {
+	span {
+		@extend .visuallyhidden;
+	}
+	&:before {
+		content: "\e013";
+	}
+}
+.Film, .Cinema {
+	span {
+		@extend .visuallyhidden;
+	}
+	&:before {
+		content: "\e005";
+	}
+}
+.Exhibitions, .Galleries {
+	span {
+		@extend .visuallyhidden;
+	}
+	&:before {
+		content: "\e01d";
+	}
+}*/
+.icon-star:before {
+	content: "\2605";
+}
+.icon-heart:before {
+	content: "\2665";
+}
+.icon-ok:before {
+	content: "\2611";
+}
+.icon-remove:before {
+	content: "\2612";
+}
+.icon-cog:before {
+	content: "\2388";
+}
+.icon-time:before {
+	content: "\233d";
+}
+.icon-tags:before {
+	content: "\2326";
+}
+.icon-chevron-down:before {
+	content: "\25be";
+}
+.icon-angle-left:before {
+	content: "\25c2";
+}
+.icon-angle-right:before {
+	content: "\25bb";
+}
+.icon-angle-up:before {
+	content: "\25b4";
+}
+.icon-angle-down:before {
+	content: "\25bc";
+}
+.icon-paperplane:before {
+	content: "\274f";
+}
+.icon-clock:before {
+	content: "\272a";
+}
+.icon-info:before {
+	content: "\261d";
+}
+.icon-warning:before {
+	content: "\21";
+}
+.icon-plus:before {
+	content: "\2b";
+}
+.icon-minus:before {
+	content: "\2d";
+} 
+.icon-twitter:before {
+	content: "\2604";
+}
+/*.icon-search:before {
+	content: "\f002";
+}*/
+.icon-search:before {
+	content: "\260c";
+}
+.icon-music:before {
+	content: "\e000";
+}
+.icon-ipod:before {
+	content: "\e001";
+}
+.icon-bag:before {
+	content: "\e002";
+}
+.icon-drink:before {
+	content: "\e003";
+}
+.icon-flower:before {
+	content: "\e004";
+}
+.icon-film:before {
+	content: "\e005";
+}
+.icon-mug:before {
+	content: "\e006";
+}
+.icon-coffee:before {
+	content: "\e007";
+}
+.icon-drink-2:before {
+	content: "\e008";
+}
+.icon-cake:before {
+	content: "\e009";
+}
+.icon-chat:before {
+	content: "\e00a";
+}
+.icon-chat-2:before {
+	content: "\e00b";
+}
+.icon-comments:before {
+	content: "\e00c";
+}
+.icon-info-2:before {
+	content: "\e00d";
+}
+.icon-cloud-dl:before {
+	content: "\e00e";
+}
+.icon-film-2:before {
+	content: "\f008";
+}
+.icon-glass:before {
+	content: "\f000";
+}
+.icon-map-marker:before {
+	content: "\f041";
+}
+.icon-quote-right:before {
+	content: "\f10e";
+}
+.icon-food:before {
+	content: "\f0f5";
+}
+.icon-coffee-2:before {
+	content: "\f0f4";
+}
+.icon-bullhorn:before {
+	content: "\f0a1";
+}
+.icon-leaf:before {
+	content: "\f06c";
+}
+.icon-calendar:before {
+	content: "\f073";
+}
+.icon-comments-2:before {
+	content: "\f086";
+}
+.icon-comment:before {
+	content: "\f075";
+}
+.icon-phone:before {
+	content: "\f095";
+}
+.icon-music-2:before {
+	content: "\e00f";
+}
+.icon-music-3:before {
+	content: "\e010";
+}
+.icon-megaphone:before {
+	content: "\e011";
+}
+.icon-newspaper:before {
+	content: "\e012";
+}
+.icon-location:before {
+	content: "\e013";
+}
+.icon-pushpin:before {
+	content: "\e014";
+}
+.icon-tv:before {
+	content: "\e015";
+}
+.icon-bookmark:before {
+	content: "\e016";
+}
+.icon-ticket:before {
+	content: "\e017";
+}
+.icon-microphone:before {
+	content: "\e018";
+} 
+.icon-marker:before {
+	content: "\e019";
+}
+.icon-brush:before {
+	content: "\e01a";
+}
+.icon-food-2:before {
+	content: "\e01b";
+}
+.icon-calendar-2:before {
+	content: "\e01c";
+}
+.icon-image:before {
+	content: "\e01d";
+}
+.icon-envelope:before {
+	content: "\e01e";
+}
+.icon-instagram:before {
+	content: "\2b12";
+}
+.icon-foursquare:before {
+	content: "\2691";
+}
+.icon-facebook:before {
+	content: "\260d";
+}

@@ -1,0 +1,130 @@
+/*------------------------------------*\
+    $Buttons
+\*------------------------------------*/
+
+.social-links {
+	margin-bottom: $base-spacing-unit;
+}
+
+.btn {
+	@include vendor(border-radius, 4px);
+	margin-bottom: $base-spacing-unit;
+}
+
+.btn-circle {
+	@include vendor(border-radius, 100%);
+	@include font-size($h2-size);
+	margin-bottom: $base-spacing-unit;
+	padding: $base-spacing-unit $base-spacing-unit +2px;
+}
+
+input[type=submit] {
+	// @include vendor(border-radius, 4px);
+}
+
+.btn--finest {
+	background: $brand-color;
+	color: white;
+	font-weight: bold;
+	&:hover {
+		background: lighten($brand-color, 10%);
+		color: #fff !important;
+		} 
+}
+
+.btn--secondary {
+	background: lighten($darkgrey, 50%);
+	color: white;
+	font-weight: bold;
+	-webkit-transition: all 0.3s ease;
+       -moz-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+	&:hover {
+		background: lighten($brand-color, 10%);
+		color: #fff !important;
+		}
+}
+
+.btn--secondary.twitter {
+	background: #00aced;
+	color: white;
+	font-weight: bold;
+	&:hover {
+		background: darken(#00aced, 20%);
+		-webkit-transform: scale(1.1);
+           -moz-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+             -o-transform: scale(1.1);
+                transform: scale(1.1);
+	}
+}
+
+.btn--secondary.instagram {
+	background: #4B789E;
+	color: white;
+	font-weight: bold;
+	&:hover {
+		background: darken(#4B789E, 20%);
+		-webkit-transform: scale(1.1);
+           -moz-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+             -o-transform: scale(1.1);
+                transform: scale(1.1);
+		}
+}
+
+.btn--secondary.foursquare {
+    background: #3AB6E8;
+	color: white;
+	font-weight: bold;
+	&:hover {
+		background: darken(#3AB6E8, 20%);	
+		-webkit-transform: scale(1.1);
+           -moz-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+             -o-transform: scale(1.1);
+                transform: scale(1.1);	
+		}
+}
+
+.btn--twitter {
+	background: #00aced;
+	color: white;
+	font-weight: bold;
+	&:hover {
+		background: #21c2ff;
+		color: #fff;
+		}
+}
+
+.btn--facebook {
+	background: #3b5998;
+	color: white;
+	font-weight: bold;
+	&:hover {
+		background: #4c70ba;
+		color: white;
+	}
+}
+
+.btn--instagram {
+	background: #4B789E;
+	color: white;
+	font-weight: bold;
+	&:hover {
+		background: #4c70ba;
+		color: white;
+	}
+}
+
+.btn--foursquare {
+	background: #3AB6E8;
+	color: white;
+	font-weight: bold;
+	&:hover {
+		background: #4c70ba;
+		color: white;
+	}
+}
+
+

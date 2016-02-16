@@ -1,0 +1,18 @@
+/*------------------------------------*\
+    $Breadcrumb
+\*------------------------------------*/
+
+.breadcrumbs {
+	padding: $half-spacing-unit $base-spacing-unit;
+	background: $lightgrey;
+	@include font-size($milli-size);
+	// color: #fff;
+	position: relative;
+	top: -1px;
+	a {
+		// color: #fff;
+	}
+}
+
+
+

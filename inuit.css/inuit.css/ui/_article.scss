@@ -1,0 +1,186 @@
+/*------------------------------------*\
+    $Articles
+\*------------------------------------*/
+
+.readability-left {
+	padding-right: $half-spacing-unit;
+}
+
+.readability-right {
+	padding-left: 24px !important;
+}
+
+.event-time {
+	@include font-size($milli-size);
+	color: lighten($darkgrey, 10%);
+	font-style: italic;
+	margin-bottom: $half-spacing-unit;
+}
+
+.article-meta {
+    @extend .clearfix;
+    overflow: hidden;
+    font-family: $quote-face;
+	font-weight: normal;
+	font-style: normal;
+	@include font-size($h6-size);
+	color: lighten($darkgrey, 20%);
+	margin-bottom: 0;
+	padding: $half-spacing-unit 0 $half-spacing-unit 0;
+	border-top: 1px solid $keylinegrey;
+	border-bottom: 1px solid $keylinegrey;
+	margin-bottom: $half-spacing-unit;
+	time {
+		float: left;
+	}
+	.author {
+		float: right;
+		a {
+			color: lighten($darkgrey, 20%);
+			&:hover {
+				color: $brand-color;
+			}
+		}
+	}
+}
+
+.entry-meta {
+	width: 90%;
+		@include media-query(palm) {
+			width: 100%;
+		}
+}
+
+.comments-area {
+	width: 90%;
+	@include media-query(palm) {
+		width: 100%;
+	}
+}
+
+.entry-header {
+	h1 {
+	@include font-size($h3-size);
+	color: #333;
+	}
+}
+
+.entry-content {
+	h1, p {
+		//margin-right: 0%;
+			width: 100%;
+			font-size: 13px;
+		@include media-query(palm) {
+			width: 100%;
+		}
+	}
+	h2 {
+		@include font-size($h6-size);
+	}
+	blockquote {
+		width: 95%;
+		//margin-left: 5%;
+	}
+	h1 {
+		@include font-size($h3-size);
+	}
+	
+	p {
+		line-height: 1.5;
+	}
+	p:empty {
+		display: none;
+	}
+	
+	blockquote {
+	
+		padding: $base-spacing-unit*1.5 $base-spacing-unit *2;
+		@include font-size($h4-size);
+		font-family: $quote-face;
+		background: $lightgrey;
+		p {
+			width: 100%;
+			@include font-size($h5-size);
+			line-height: 1.5em;
+		}
+	}	
+	img {
+		width: 100%;
+		max-width: 100%;
+		height: auto;
+	}
+	img, p, strong {
+		display: block;
+		@extend .cf;
+	}
+	.wp-caption {
+		width: 100% !important;
+	}
+	.wp-caption-text {
+		background-color: $lightgrey;
+		padding: $half-spacing-unit;
+		@include font-size($milli-size);
+		font-style: italic;
+		color: lighten($darkgrey, 20%);
+	}
+	@include media-query(palm) {
+		img {
+			width: 100%;
+			height: auto;
+		}
+		
+	}
+}
+
+.post-categories {
+		padding: $base-spacing-unit $base-spacing-unit $base-spacing-unit $base-spacing-unit;
+		margin-bottom: 0;
+		@extend .nav;
+		a {
+			padding: $half-spacing-unit 0;
+			@include font-size($milli-size);
+			font-family: sans-serif;
+		}
+		&:before {
+			color: $brand-color;
+			margin-right: $half-spacing-unit;
+			padding: $half-spacing-unit/2 0 0 0;
+			content: "\2326";
+			float: left;
+		}
+		li {
+			&:after {
+				content:", ";
+			}
+			&:last-child:after {
+				content:" ";
+			}
+		}
+}
+
+.ie9 { 
+	.post-categories {
+			&:before {
+					content: "" !important;
+				}
+		}
+}
+
+.author-info {
+	background: lighten($lightgrey, 2%);
+	h2 {
+		@include font-size($h4-size);
+		margin-bottom: $half-spacing-unit;
+		padding: $half-spacing-unit $half-spacing-unit 0 0;
+	}
+	p {
+		padding: 0 $half-spacing-unit 0 0;
+	}
+	img {
+		
+	}
+}
+
+.mapp-layout {
+	width: 100% !important;
+}
