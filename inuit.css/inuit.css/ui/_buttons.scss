@@ -40,7 +40,7 @@ input[type=submit] {
        -moz-transition: all 0.3s ease;
             transition: all 0.3s ease;
 	&:hover {
-		background: lighten($brand-color, 10%);
+		background: lighten($brand-color, 11%);
 		color: #fff !important;
 		}
 }
