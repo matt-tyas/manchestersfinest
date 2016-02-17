@@ -40,10 +40,13 @@ get_header(); ?>
 				</div>
 				
 				<div class="g one-third palm-one-whole">
-			
+
+				<h5 class="sub-title ad-title">Adverts</h5>
+
 				<div class="gw">
 				
 					<div class="g one-half palm-one-whole">
+
 						<?php 
 						if ( is_active_sidebar( 'category-page-advert-1' ) ) : ?>
 				        <?php dynamic_sidebar( 'category-page-advert-1' ); ?>
@@ -79,14 +82,20 @@ get_header(); ?>
 			
 			<!-- Connect CTAs -->
 				<aside class="connect">
-					<h5 class="sub-title">Stay connected to Finest</h5>
-					<?php echo do_shortcode( '[contact-form-7 id="10674" title="Simple Newsletter"]' ); ?>
-					<p>Say hello on&hellip;</p>
-					<ul class="nav nav--banner nav--fit social">
-						<li><a class="btn btn--secondary twitter" href="https://twitter.com/intent/user?screen_name=McrFinest" target="_blank" title="Follow on Twitter">Twitter</a></li>
-						<li><a class="btn btn--secondary instagram" href="http://instagram.com/manchestersfinest" target="_blank" title="Follow on Instagram">Instagram</a></li>
-						<li><a class="btn btn--secondary foursquare" href="https://foursquare.com/mcrfinest" target="_blank" title="Follow on Foursquare">Foursquare</a></li>
+					
+					<h5 class="sub-title">// Say hello&hellip;</h5>
+					<ul class="nav nav--banner  social">
+						<li>
+							<a class="btn-circle btn--secondary twitter" href="https://twitter.com/intent/user?screen_name=McrFinest" target="_blank" title="Follow on Twitter"><span aria-hidden="true" class="icon-twitter"></span><span class="accessibility">Twitter</span></a>
+						</li>
+						<li>
+							<a class="btn-circle btn--secondary instagram" href="http://instagram.com/manchestersfinest" target="_blank" title="Follow on Instagram"><span aria-hidden="true" class="icon-instagram"></span><span class="accessibility">Instagram</span></a>
+						</li>
+						<li>
+							<a class="btn-circle btn--secondary facebook" href="https://facebook.com/MCRfinest" target="_blank" title="Follow on Facebook"><span aria-hidden="true" class="icon-facebook"></span><span class="accessibility">Facebook page</span></a>
+						</li>
 					</ul>
+
 				</aside>
 			
 			</div>

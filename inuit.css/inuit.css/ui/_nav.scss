@@ -23,6 +23,7 @@
 	    		display: block;
 		    	padding: $half-spacing-unit;
 		    	@include font-size($milli-size);
+		    	line-height: 1.4;
 	    	}
 	    	#menu-secondary-navigation {
 			    float: none;
@@ -146,6 +147,7 @@
 		padding: $base-spacing-unit+2px $base-spacing-unit $base-spacing-unit+2px $base-spacing-unit;
 		color:$brand-color;
 		@include font-size($milli-size);
+		line-height: 1.4;
 		text-transform: uppercase;
 		&:hover {
 			background: $darkgrey;
