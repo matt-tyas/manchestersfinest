@@ -78,6 +78,20 @@ get_header(); ?>
                         <?php dynamic_sidebar( 'category-page-advert-4' ); ?>
 				        <?php endif; ?>
 					</div>
+
+					<div class="g mob-one-half one-half palm-one-quarter mob-one-half">
+						<?php 
+						if ( is_active_sidebar( 'category-page-advert-5' ) ) : ?>
+				        <?php dynamic_sidebar( 'category-page-advert-5' ); ?>
+				        <?php endif; ?>					
+				    </div>
+					
+					<div class="g mob-one-half one-half palm-one-quarter mob-one-half">
+					 	<?php 
+				        if ( is_active_sidebar( 'category-page-advert-6' ) ) : ?>
+                        <?php dynamic_sidebar( 'category-page-advert-6' ); ?>
+				        <?php endif; ?>
+					</div>
 					
 				</div>
 				
@@ -90,7 +104,7 @@ get_header(); ?>
 							<a class="btn-circle btn--secondary twitter" href="https://twitter.com/intent/user?screen_name=McrFinest" target="_blank" title="Follow on Twitter"><span aria-hidden="true" class="icon-twitter"></span><span class="accessibility">Twitter</span></a>
 						</li>
 						<li>
-							<a class="btn-circle btn--secondary instagram" href="http://instagram.com/manchestersfinest" target="_blank" title="Follow on Instagram"><span aria-hidden="true" class="icon-instagram"></span><span class="accessibility">Instagram</span></a>
+							<a class="btn-circle btn--secondary instagram" href="https://www.instagram.com/mcrfinest/" target="_blank" title="Follow on Instagram"><span aria-hidden="true" class="icon-instagram"></span><span class="accessibility">Instagram</span></a>
 						</li>
 						<li>
 							<a class="btn-circle btn--secondary facebook" href="https://facebook.com/MCRfinest" target="_blank" title="Follow on Facebook"><span aria-hidden="true" class="icon-facebook"></span><span class="accessibility">Facebook page</span></a>

@@ -6,7 +6,7 @@
 	min-height: 360px;
 	overflow: hidden;
 	//background: lighten($lightgrey, 2%);
-	-webkit-transition:all 150ms ease-in;
+	  -webkit-transition:all 150ms ease-in;
        -moz-transition:all 150ms ease-in;
          -o-transition:all 150ms ease-in;
             transition:all 150ms ease-in;
@@ -48,7 +48,7 @@
 		padding: 0 $base-spacing-unit $half-spacing-unit $base-spacing-unit;
 		margin-bottom: $base-spacing-unit;
 		color: #000;
-		-webkit-transition:all 150ms ease-in;
+		    -webkit-transition:all 150ms ease-in;
            -moz-transition:all 150ms ease-in;
              -o-transition:all 150ms ease-in;
                 transition:all 150ms ease-in;
@@ -71,7 +71,7 @@
 		line-height: 1.4;
 		text-align: center;
 		margin-bottom: 0;
-		-webkit-transition:all 150ms ease-in;
+		    -webkit-transition:all 150ms ease-in;
            -moz-transition:all 150ms ease-in;
              -o-transition:all 150ms ease-in;
                 transition:all 150ms ease-in;
