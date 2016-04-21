@@ -158,11 +158,8 @@ get_header(); ?>
 					
 				</div>
 				
-				<!-- Connect CTAs -->
-				<aside class="connect">
-					<h5 class="sub-title">Stay connected to Finest</h5>
-					<?php echo do_shortcode( '[contact-form-7 id="10674" title="Simple Newsletter"]' ); ?>
-
+					<!-- Connect CTAs -->
+					<aside class="connect">
 						<h5 class="sub-title">// Say hello&hellip;</h5>
 						<ul class="nav nav--banner  social">
 							<li>
@@ -175,11 +172,7 @@ get_header(); ?>
 								<a class="btn-circle btn--secondary foursquare" href="https://foursquare.com/mcrfinest" target="_blank" title="Follow on Foursquare"><span aria-hidden="true" class="icon-foursquare"></span><span class="accessibility">Foursquare</span></a>
 							</li>
 						</ul>
-						
 					</aside>
-				
-
-
 				
 				</div>
 

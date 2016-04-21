@@ -13,17 +13,17 @@
     &:hover {
 		//background: darken($lightgrey, 3%);
 		text-decoration: none;
-				h2 {
-					color: $brand-color;
-				}
-				.title {
-					padding: $half-spacing-unit $base-spacing-unit $half-spacing-unit $base-spacing-unit;
-					border-top: 1px solid $brand-color;
-					border-bottom: 1px solid $brand-color;
-				}
-				span {
-					color: $brand-color;
-				}
+			h2 {
+				color: $brand-color;
+			}
+			.title {
+				padding: $half-spacing-unit $base-spacing-unit $half-spacing-unit $base-spacing-unit;
+				border-top: 1px solid $brand-color;
+				border-bottom: 1px solid $brand-color;
+			}
+			span {
+				color: $brand-color;
+			}
 		}
 	a {
 		overflow: hidden;
