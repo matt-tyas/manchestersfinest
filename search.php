@@ -92,6 +92,20 @@ get_header(); ?>
                         <?php dynamic_sidebar( 'category-page-advert-6' ); ?>
 				        <?php endif; ?>
 					</div>
+
+					<div class="g one-half palm-one-quarter mob-one-half">
+						<?php 
+						if ( is_active_sidebar( 'category-page-advert-7' ) ) : ?>
+				        <?php dynamic_sidebar( 'category-page-advert-7' ); ?>
+				        <?php endif; ?>					
+				    </div>
+					
+					<div class="g one-half palm-one-quarter mob-one-half">
+					 	<?php 
+				        if ( is_active_sidebar( 'category-page-advert-8' ) ) : ?>
+                        <?php dynamic_sidebar( 'category-page-advert-8' ); ?>
+				        <?php endif; ?>
+					</div>
 					
 				</div>
 				

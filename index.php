@@ -395,24 +395,6 @@ get_header(); ?>
 						endif; ?>
 	           </div><!-- .events -->
 
-
-
-	          <div class="ad-sense">
-			        <h5 class="sub-title ad-title">// Advert</h5>
-							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-							<!-- Home responsive 1 -->
-							<ins class="adsbygoogle"
-							     style="display:block"
-							     data-ad-client="ca-pub-0654331869436657"
-							     data-ad-slot="6377296206"
-							     data-ad-format="auto"></ins>
-							<script>
-							(adsbygoogle = window.adsbygoogle || []).push({});
-							</script>
-						</div>
-
-
-	           
 	           <div class="gw">
 					<div class="g one-half palm-one-half mob-one-half">
 						<?php 
@@ -440,19 +422,42 @@ get_header(); ?>
 								 if ( is_active_sidebar( 'homepage-optional-2' ) ) : ?>
 								 <?php dynamic_sidebar( 'homepage-optional-2' ); ?>
 							<?php endif; ?>				
-                            </div>
-                            <div class="g one-whole palm-one-half mob-one-whole">
+              </div>
+              <div class="g one-whole palm-one-half mob-one-whole">
 							<?php 
 								 if ( is_active_sidebar( 'homepage-optional-3' ) ) : ?>
 								 <?php dynamic_sidebar( 'homepage-optional-3' ); ?>
 							<?php endif; ?>				
-                            </div>
+             </div>
+             <div class="g one-whole palm-one-half mob-one-whole">
+							<?php 
+								 if ( is_active_sidebar( 'homepage-optional-4' ) ) : ?>
+								 <?php dynamic_sidebar( 'homepage-optional-4' ); ?>
+							<?php endif; ?>				
+             </div>
+             <div class="g one-whole palm-one-half mob-one-whole">
+							<?php 
+								 if ( is_active_sidebar( 'homepage-optional-5' ) ) : ?>
+								 <?php dynamic_sidebar( 'homepage-optional-5' ); ?>
+							<?php endif; ?>				
+             </div>
 						</div>
 					</div>
-					
-					<!--<div class="g one-half palm-one-quarter mob-one-half">
-					 	
-					</div>-->
+
+				</div>
+
+				<div class="ad-sense">
+	        <h5 class="sub-title ad-title">// Advert</h5>
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- Home responsive 1 -->
+					<ins class="adsbygoogle"
+					     style="display:block"
+					     data-ad-client="ca-pub-0654331869436657"
+					     data-ad-slot="6377296206"
+					     data-ad-format="auto"></ins>
+					<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
 				</div>
 
 				<div class="ad-sense">
